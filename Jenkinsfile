@@ -16,8 +16,8 @@ pipeline {
     stages {
         stage('Get Code') {
             steps {
-                //git branch: 'jenkinsfile', url: 'https://github.com/Panda-Academy-Core-2-0/Backend'
-              checkout scm
+                //git branch: 'jenkinsfile', url: 'https://github.com/vBardys/Backend.git'
+                checkout scm
             }
         }
  
