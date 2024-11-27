@@ -1,4 +1,4 @@
-def imageName="bardys/frontend"
+def imageName="bardys/backend"
 def dockerTag=""
 def dockerRegistry=""
 def registryCredentials="dockerhub"
